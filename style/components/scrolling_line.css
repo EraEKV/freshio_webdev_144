@@ -1,0 +1,22 @@
+
+
+.scroller_line {
+    margin-top: 85px;
+    padding: 60px 0;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #e5e5e5;
+}
+
+
+.scroller_line img {
+    width: 15%;
+    opacity: .5;
+    transition: .5s;
+}
+
+
+.scroller_line img:hover {
+    opacity: 1;
+    cursor: pointer;
+}

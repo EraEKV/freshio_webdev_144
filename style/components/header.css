@@ -1,0 +1,33 @@
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 5%;
+    align-items: center;
+}
+
+
+.header_links {
+    display: flex;
+    align-items: center;
+}
+
+
+.header_links a {
+    margin: 0 10px;
+    transition: .3s;
+    color: #555;
+}
+
+
+.header_links a:hover {
+    color: #bac34e;
+}
+
+
+@media( max-width: 991px) {
+    .header {
+        display: none;
+    }
+}

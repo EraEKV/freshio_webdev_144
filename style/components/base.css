@@ -1,0 +1,20 @@
+    
+
+a {
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+
+body {
+    padding: 0 5%;
+    background-color: #fcf3ea;
+    cursor: default;
+    margin-bottom: 50px;
+}
+
+
+section {
+    background-color: #fff;
+    padding: 0 5%;
+}
